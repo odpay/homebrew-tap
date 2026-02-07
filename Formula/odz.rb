@@ -5,14 +5,8 @@ class Odz < Formula
   license "MIT"
 
   on_macos do
-    on_arm do
-      url "https://github.com/odpay/odzip/releases/download/v#{version}/odz-darwin-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
-    on_intel do
-      url "https://github.com/odpay/odzip/releases/download/v#{version}/odz-darwin-amd64.tar.gz"
-      sha256 "PLACEHOLDER"
-    end
+    url "https://github.com/odpay/odzip/releases/download/v#{version}/odz-darwin-universal.tar.gz"
+    sha256 "PLACEHOLDER"
   end
 
   on_linux do
