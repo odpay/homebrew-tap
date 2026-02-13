@@ -1,4 +1,4 @@
-class Odz < Formula
+class Odzip < Formula
   desc "DEFLATE-class LZ77+Huffman compressor"
   homepage "https://github.com/odpay/odzip"
   version "1.0.0"
@@ -16,6 +16,7 @@ class Odz < Formula
 
   def install
     bin.install "odz"
+    bin.install_symlink "odz" => "odzip"
   end
 
   test do
