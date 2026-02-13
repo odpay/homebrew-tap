@@ -1,17 +1,17 @@
 class Odzip < Formula
   desc "DEFLATE-class LZ77+Huffman compressor"
   homepage "https://github.com/odpay/odzip"
-  version "1.0.0"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
-    url "https://github.com/odpay/odzip/releases/download/v1.0.0/odz-darwin-universal.tar.gz"
-    sha256 "c411fe15da19df02a784f831420ef5868e391c85423633d26dd6e1513a9ee990"
+    url "https://github.com/odpay/odzip/releases/download/v1.0.1/odz-darwin-universal.tar.gz"
+    sha256 "ef588c27cef70088f29e9cb8db1a20553731fd50224df26b40251dba01b1b75b"
   end
 
   on_linux do
-    url "https://github.com/odpay/odzip/releases/download/v1.0.0/odz-linux-amd64.tar.gz"
-    sha256 "6dd93901cea68a6463d740f781789687d4f4236d1d2b1455d8f8d47e2195dba2"
+    url "https://github.com/odpay/odzip/releases/download/v1.0.1/odz-linux-amd64.tar.gz"
+    sha256 "6745aefac786e408093fe8e796231f683d8c5ee0bd4ee1b0eae7ba44403a183f"
   end
 
   def install
