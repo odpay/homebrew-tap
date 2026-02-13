@@ -6,12 +6,12 @@ class Odzip < Formula
 
   on_macos do
     url "https://github.com/odpay/odzip/releases/download/v1.0.1/odz-darwin-universal.tar.gz"
-    sha256 "ef588c27cef70088f29e9cb8db1a20553731fd50224df26b40251dba01b1b75b"
+    sha256 "79b91251dbd0c33fb938dc53644a0874cf96f7b478127a9664013563c9fd598b"
   end
 
   on_linux do
     url "https://github.com/odpay/odzip/releases/download/v1.0.1/odz-linux-amd64.tar.gz"
-    sha256 "6745aefac786e408093fe8e796231f683d8c5ee0bd4ee1b0eae7ba44403a183f"
+    sha256 "b644ba2fb6346f3ac2e0147a0336091aea2c1e94667c532848020557c6079105"
   end
 
   def install
